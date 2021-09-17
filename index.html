@@ -1,118 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-	<title>Voa Lá Artes Aéreas</title>
-	<meta charset="UTF-8">
+
+	<meta charset="utf-8">
+
+	<!-- Bootstrap -->
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet">
+
+	<title>Voa Lá - Artes Aéreas</title>
+	<style type="text/css">
+		
+		.video {
+		    position: relative;
+		    width: 100%;
+		    height: 0;
+		    padding-bottom: 56.25%;
+		}
+
+		iframe {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+
+		a{
+			color: mediumvioletred;
+		}
+
+		p{
+			font-family: roboto;
+			font-weight: 300;nt
+		}
+
+		.img-container {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }      
+      .img-container:before {
+        content: " ";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+      }      
+      .img-container img {
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      .responsive-container {
+        position: relative;
+      }      
+      .example {
+        padding-top: 100%;
+        /* forces 1:1 aspect ratio */
+
+    }
+
+    strong{
+    	font-weight: 600;
+    	font-style: italic;
+    }
+    @media only screen and (max-width: 580px){
+
+    	.full-resp {
+    		height: 20vh !important; 
+    	}
+
+    	.logo{
+    		max-height: 70%;
+    	}
+
+    }
+    
+
+    .full-resp{
+
+    	height: 100vh;
+
+    }
+	</style>
+
 </head>
 <body>
-	
-	
-	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-b-30">
-		<div class="flex-w flex-c cd100 wsize1 bor1">
-			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 days">30</span>
-				<span class="s1-txt1">Dias</span>
+
+	<div class="container-fluid">
+
+		<div class="row">
+
+			<div class="col-sm-6 shadow bg-body responsive-container full-resp" style="text-align: center;">
+
+				<div class="img-container">
+					
+
+					<img class="center-block logo" src="images/Voa Lá - Logo.png" style="max-width: 70%; text-align: center; display: inline-block; vertical-align: middle;">
+
+
+				</div>
+
+
+
+
 			</div>
 
-			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 hours">17</span>
-				<span class="s1-txt1">Horas</span>
+			<div class="col-sm-6">
+
+				<div class="" style="text-align: center; padding: 8%;">
+
+					<img  class="img-responsive" src="images/Voa Lá - Tá On - Logo.png" style="max-width: 25%; padding-top:20px;">
+
+					<p style="font-size: 2vh; padding-top: 30px;"><br>Nosso projeto sobre a didática dos fundamentos do tecido acrobático saiu do papel e <strong>tá on!</strong><br><br>Continue nos acompanhando que em breve a série de vídeos tutoriais com nossos queridos instrutores <a href="https://www.instagram.com/carolinevoltolini/">@carolinevoltolini</a>, <a href="https://www.instagram.com/diegovecente/">@diegovecente</a> e <a href="https://www.instagram.com/suzipatricia/">@suzipatricia</a> estará em nossas redes sociais.<br><br>Movimente-se, encante-se e voe!<br><br> 
+
+					</p>
+
+					<div class="video" style="margin-top: 20px;">
+
+						<iframe class="iframe" width="" height="" src="https://www.youtube-nocookie.com/embed/nQ5eUJNXrMw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					</div>
+
+				</div>
+
 			</div>
 
-			<div class="flex-col-c-m size2 bg0 bor2">
-				<span class="l1-txt3 p-b-7 minutes">50</span>
-				<span class="s1-txt1">Minutos</span>
-			</div>
-
-			<div class="flex-col-c-m size2 bg0">
-				<span class="l1-txt3 p-b-7 seconds">39</span>
-				<span class="s1-txt1">Segundos</span>
-			</div>
 		</div>
 
-
-		<div class="flex-col-c w-full p-t-50 p-b-80">
-			<h3 class="l1-txt1 txt-center p-b-10">
-				Em Breve!
-			</h3>
-
-			<p class="txt-center l1-txt2 p-b-43 wsize2">
-				Nosso site está em construção, por favor volte em alguns dias!
-			</p>
-
-			<p class="txt-center l1-txt2 p-b-43 wsize2">
-				Enquanto isso, confira nosso Instagram: <br>
-				<a style="color: lightpink;" href="https://www.instagram.com/voa.la_artes/">Voa Lá - Artes Aéreas</a> <br><br>
-				Ou Entre em contato conosco via WhatsApp:<br>
-				<a style="color: lightgreen;"href="https://api.whatsapp.com/send?phone=554799156752">(47) 99915-6752</a>
-
-			</p>
-
-
-			
-		</div>
-
-		<span class="s1-txt2 txt-center">
-			@ 2021. Voa-Lá Artes Aéreas
-		</span>
 
 	</div>
 
 
+	<!-- Bootstrap -->
 
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			// Set Endtime here
-			// Endtime must be > current time
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 28,
-			endtimeHours: 19,
-			endtimeMinutes: 35,
-			endtimeSeconds: 15,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York", can be empty
-			// go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
